@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-05 12:11:12.571771",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "details",
+  "language",
+  "framework",
+  "ides",
+  "applied_date",
+  "initials",
+  "testing_tools",
+  "bug_tracking_system",
+  "automation_experience",
+  "test_environments",
+  "design_style",
+  "color_theory_knowledge",
+  "typography_skills",
+  "uiux_experience"
+ ],
+ "fields": [
+  {
+   "fieldname": "details",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "language",
+   "fieldtype": "Select",
+   "label": "Language",
+   "options": "Python\nJavascript\nPHP"
+  },
+  {
+   "fieldname": "framework",
+   "fieldtype": "Data",
+   "label": "Framework",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ides",
+   "fieldtype": "Select",
+   "label": "IDEs",
+   "options": "VS Code\nIntelliJ IDEA"
+  },
+  {
+   "fieldname": "applied_date",
+   "fieldtype": "Date",
+   "label": "Applied Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "initials",
+   "fieldtype": "Data",
+   "label": "Initials"
+  },
+  {
+   "fieldname": "testing_tools",
+   "fieldtype": "Select",
+   "label": "Testing Tools",
+   "options": "Selenium\nAppium\nJUnit"
+  },
+  {
+   "fieldname": "bug_tracking_system",
+   "fieldtype": "Select",
+   "label": "Bug Tracking System",
+   "options": "JIRA\nBugzilla"
+  },
+  {
+   "fieldname": "automation_experience",
+   "fieldtype": "Int",
+   "label": "Automation Experience"
+  },
+  {
+   "fieldname": "test_environments",
+   "fieldtype": "Data",
+   "label": "Test Environments"
+  },
+  {
+   "fieldname": "design_style",
+   "fieldtype": "Data",
+   "label": "Design Style"
+  },
+  {
+   "fieldname": "color_theory_knowledge",
+   "fieldtype": "Data",
+   "label": "Color Theory Knowledge"
+  },
+  {
+   "fieldname": "typography_skills",
+   "fieldtype": "Data",
+   "label": "Typography Skills"
+  },
+  {
+   "fieldname": "uiux_experience",
+   "fieldtype": "Int",
+   "label": "UI/UX Experience"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-05-06 15:20:13.368957",
+ "modified_by": "Administrator",
+ "module": "User Records",
+ "name": "Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

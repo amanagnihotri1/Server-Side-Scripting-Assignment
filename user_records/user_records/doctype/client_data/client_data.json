@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:STU-{last_name}-{####}",
+ "creation": "2024-05-08 11:28:21.063294",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "client_info",
+  "first_name",
+  "last_name",
+  "allow_check",
+  "full_name",
+  "client_id",
+  "customer_group",
+  "acc_manager",
+  "billing_currency",
+  "price_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "default": "0",
+   "fieldname": "allow_check",
+   "fieldtype": "Check",
+   "label": "isAllowed"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "client_info",
+   "fieldtype": "Section Break",
+   "label": "Client Data"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "client_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client ID",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "customer_group",
+   "fieldtype": "Read Only",
+   "label": "Customer Group"
+  },
+  {
+   "fieldname": "acc_manager",
+   "fieldtype": "Read Only",
+   "label": "Account Manager"
+  },
+  {
+   "fieldname": "billing_currency",
+   "fieldtype": "Read Only",
+   "label": "Billing Currency"
+  },
+  {
+   "fieldname": "price_list",
+   "fieldtype": "Read Only",
+   "label": "Default Price List"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-08 17:12:36.388605",
+ "modified_by": "Administrator",
+ "module": "User Records",
+ "name": "Client Data",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
